@@ -1,0 +1,32 @@
+.boxintro {
+  display: grid;
+  max-width: 1200px;
+}
+
+.tituloh1 {
+  margin: 30px 0px;
+  position: relative;
+}
+
+.introducao {
+  font-size: 1.1rem;
+}
+
+.box-intro2 {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  max-width: 1200px;
+  position: relative;
+}
+
+.tituloh1::after {
+  position: absolute;
+  content: "";
+  top: 19px;
+  margin-left: 20px;
+  width: 40px;
+  height: 4px;
+  border-radius: 5px;
+  background-color: aquamarine;
+}

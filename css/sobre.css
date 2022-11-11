@@ -1,0 +1,25 @@
+.box-sobre {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  margin: auto;
+  max-width: 1200px;
+  margin-top: 60px;
+}
+
+.box-sobre h3 {
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+}
+.box-sobre p {
+  font-size: 1.1rem;
+}
+
+.imgsobre1 {
+  place-self: start;
+}
+
+.imgsobre2 {
+  place-self: end;
+}
